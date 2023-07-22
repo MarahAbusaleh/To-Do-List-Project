@@ -1,0 +1,56 @@
+.contdiv{
+    display: flex;
+    flex-direction: column;
+}
+#toDo{
+    padding-top: 10px;
+    padding-bottom: 100px;
+    margin-left: 340px;
+    width: 500px;
+    height: fit-content;
+    background-color: white;
+}
+h1{
+    text-align: center;
+}
+#addTask{
+    margin-left: 50px;
+    width: 340px;
+    height: 25px;
+}
+#btn{
+    background-color: palevioletred;
+    height: 29px;
+    border-radius: 5px;
+}
+#searchTask{
+    margin-left: 50px;
+    height: 25px;
+    padding-right: 30px;
+}
+p{
+    margin-left: 50px;
+}
+hr{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+button{
+    background-color: palevioletred;
+    height: 29px;
+    margin-right: 10px;
+    top: 10px;
+    border-radius: 5px;
+}
+.search-container {
+    position: relative;
+    display: inline-block;
+}
+.material-symbols-outlined {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #888;
+}
